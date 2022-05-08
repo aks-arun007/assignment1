@@ -1,0 +1,130 @@
+/* Author : Arun
+   Date: 08/05/2022
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background-color: #333; 
+}
+.section1{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    height: 60vh;
+    justify-content: center;
+}
+.section1 > div{   
+    text-align: center;
+    width: 70%;
+}
+.section1 h2{
+    font-size: 40px;
+    margin: 20px;
+}
+.section1 p{
+    font-size: 24px;
+}
+.section1 .button{
+    margin-top: 40px;
+}
+.section1 .button a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 15px;
+}
+.section1-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    background-color: #eaeaea
+}
+.section1-1 div{
+    text-align: center;
+    width: 70%;
+}
+.section1-1 h2{
+    font-size: 30px;
+    margin: 20px;
+}
+.section1-1 p{
+    font-size: 22px;
+}
+/* Section two start*/
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: 60vh;
+}
+.col{
+    width: 30%;
+    margin-top: 1px;
+    
+}
+.img-container{
+    background-color: #eaeaea;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+.img-container img{
+    border-radius: 20px;
+}
+.footer-container{
+    display: flex;
+    height: 60vh;
+    flex-wrap: wrap;
+    
+}
+.contact-us{
+    background-color: rgb(18, 144, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact-us div{
+    width: 90%;
+}
+.about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.about-us div{
+    width: 90%;
+}
+/*Media Query Start*/
+@media screen and (max-width: 576px){
+    .section1{
+        
+        height: 100vh;
+        
+    }
+    .col{
+        width: 100%;
+        margin-top: 1px;
+        
+    }
+    .row{
+        height: auto;
+        gap: 10px;    
+    }
+    .section1-1{
+        height: auto;
+        padding: 20px;
+    }
+        
+}
